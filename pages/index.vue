@@ -1,72 +1,65 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        nuxtjs
-      </h1>
-      <h2 class="subtitle">
-        My astonishing Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+  <div id="wrapper">
+    <div id="bg"></div>
+    <div id="overlay"></div>
+    <div id="main">
+      <header id="header">
+        <h1>Ary Wibowo</h1>
+        <p>Technopreneur &nbsp;&bull;&nbsp; Founder of Nucreativa Digital Colony </p>
+        <nav>
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/nucreativa/" class="icon brands fa-linkedin">
+                <span class="label">Linkedin</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/nucreativa" class="icon brands fa-github">
+                <span class="label">Github</span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:ary.wibowo@nucreativa.com" class="icon solid fa-envelope">
+                <span class="label">Email</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <span class="copyright">
+          &copy; Ary Wibowo. Design:
+          <a href="http://html5up.net">HTML5 UP</a>.
+        </span>
+      </footer>
     </div>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
+  components: {},
+  head: {
+    title: 'Ary Wibowo',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Ary Wibowo'
+      }
+    ],
   }
-}
+};
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+<style lang="scss" scoped>
+@import '~/assets/sass/main.scss';
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+body {
+  color: #fff;
 }
 </style>
