@@ -5,21 +5,29 @@
     <div id="main">
       <header id="header">
         <h1>Ary Wibowo</h1>
-        <p>Technopreneur &nbsp;&bull;&nbsp; Founder of Nucreativa Digital Colony </p>
+        <p>Technopreneur &nbsp;&bull;&nbsp; Founder of Nucreativa Digital Colony</p>
         <nav>
           <ul>
             <li>
-              <a href="https://www.linkedin.com/in/nucreativa/" class="icon brands fa-linkedin">
+              <a
+                href="https://www.linkedin.com/in/nucreativa/"
+                class="icon brands fa-linkedin"
+                target="_blank"
+              >
                 <span class="label">Linkedin</span>
               </a>
             </li>
             <li>
-              <a href="https://github.com/nucreativa" class="icon brands fa-github">
+              <a href="https://github.com/nucreativa" class="icon brands fa-github" target="_blank">
                 <span class="label">Github</span>
               </a>
             </li>
             <li>
-              <a href="mailto:ary.wibowo@nucreativa.com" class="icon solid fa-envelope">
+              <a
+                href="mailto:ary.wibowo@nucreativa.com"
+                class="icon solid fa-envelope"
+                target="_blank"
+              >
                 <span class="label">Email</span>
               </a>
             </li>
@@ -42,24 +50,28 @@
 export default {
   components: {},
   head: {
-    title: 'Ary Wibowo',
+    title: "Ary Wibowo",
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
-        hid: 'description',
-        name: 'description',
-        content: 'Ary Wibowo'
-      }
+        hid: "description",
+        name: "description",
+        content: "Ary Wibowo",
+      },
     ],
-  }
+  },
 };
 </script>
 
 <style lang="scss" scoped>
-@import '~/assets/sass/main.scss';
+@import "~/assets/sass/main.scss";
 
-body {
-  color: #fff;
+body,
+h1,
+p,
+a,
+span {
+  font-family: "Arial" !important;
 }
 </style>
