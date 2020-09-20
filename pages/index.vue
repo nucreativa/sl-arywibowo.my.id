@@ -69,6 +69,40 @@ export default {
         content: "Ary Wibowo",
       },
     ],
+    script: [
+      {
+        type: "application/ld+json",
+        json: {
+          "@context": "http://schema.org",
+          "@type": "Person",
+          name: "Ary Wibowo",
+          gender: "Male",
+          nationality: "Indonesia",
+          alumniOf: {
+            "@type": "OrganizationRole",
+            alumniOf: {
+              "@type": "CollegeOrUniversity",
+              name: "Universitas Gunadarma",
+              sameAs: "http://www.gunadarma.ac.id/",
+            },
+          },
+          worksFor: ["G4S Indonesia"],
+          affiliation: [
+            "Nucreativa Digital Colony",
+            "G4S Indonesia",
+            "ANTV",
+            "Bizzy Indonesia",
+            "Icar Asia Limited",
+          ],
+          sameAs: [
+            "https://github.com/nucreativa",
+            "https://stackoverflow.com/users/2097989/ary-wibowo?tab=profile",
+            "https://www.linkedin.com/in/nucreativa/",
+            "https://twitter.com/nucreativa",
+          ],
+        },
+      },
+    ],
   },
 };
 </script>
