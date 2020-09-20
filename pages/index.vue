@@ -24,6 +24,15 @@
             </li>
             <li>
               <a
+                href="https://stackoverflow.com/users/2097989/ary-wibowo?tab=profile"
+                class="icon brands fa-stack-overflow"
+                target="_blank"
+              >
+                <span class="label">Stack Overflow</span>
+              </a>
+            </li>
+            <li>
+              <a
                 href="mailto:ary.wibowo@nucreativa.com"
                 class="icon solid fa-envelope"
                 target="_blank"
