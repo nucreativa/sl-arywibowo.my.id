@@ -5,7 +5,7 @@
     <div id="main">
       <header id="header">
         <h1>Ary Wibowo</h1>
-        <p>Technopreneur &nbsp;&bull;&nbsp; Founder of Nucreativa Digital Colony</p>
+        <p>CEO and Founder of <a href="https://curh.at">curh.at</a></p>
         <nav>
           <ul>
             <li>
@@ -86,9 +86,10 @@ export default {
               sameAs: "http://www.gunadarma.ac.id/",
             },
           },
-          worksFor: ["G4S Indonesia"],
+          worksFor: ["Brink's Indonesia"],
           affiliation: [
-            "Nucreativa Digital Colony",
+            "curh.at",
+            "Brink's Indonesia",
             "G4S Indonesia",
             "ANTV",
             "Bizzy Indonesia",
