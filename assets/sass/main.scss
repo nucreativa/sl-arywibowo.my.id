@@ -29,7 +29,7 @@
 		}
 
 		#bg {
-			background-size: $width auto;
+			background-size: $width 100%;
 			width: ($width * 3);
 		}
 	}
@@ -283,6 +283,7 @@
 		top: -1em;
 		vertical-align: middle;
 		width: 90%;
+		color:#fff;
 
 		h1 {
 			font-size: 4.35em;
