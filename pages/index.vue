@@ -5,7 +5,7 @@
     <div id="main">
       <header id="header">
         <h1>Ary Wibowo</h1>
-        <p>CEO and Founder of <a href="https://curh.at">curh.at</a></p>
+        <p>CEO and Founder of <a href="https://curh.at" target="_blank">curh.at</a></p>
         <nav>
           <ul>
             <li>
@@ -66,7 +66,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Ary Wibowo",
+        content: "Hi, my name is Ary Wibowo, CEO and Founder of curh.at. And this is my personal website.",
       },
     ],
     script: [

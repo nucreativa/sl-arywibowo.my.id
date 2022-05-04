@@ -4,14 +4,14 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || "",
+    title: "Ary Wibowo",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
         name: "description",
-        content: process.env.npm_package_description || "",
+        content: "Hi, my name is Ary Wibowo, CEO and Founder of curh.at. And this is my personal website.",
       },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
@@ -27,14 +27,14 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [
+    '@/plugins/gtag'
+  ],
   /*
    ** Nuxt.js modules
    */
   modules: [
-    ['@nuxtjs/google-adsense', {
-      id: 'ca-pub-3842464366552625'
-    }]
+    
   ],
   /*
    ** Build configuration
